@@ -93,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     hintText: 'Enter height in meter',
-                    icon: Icon(Icons.linear_scale),
+                    icon: Icon(Icons.trending_up),
                   )),
             ),
             // ignore: prefer_const_constructors
@@ -115,6 +115,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: <Widget>[
                   RaisedButton(
                     color: Colors.purple[400],
+                    splashColor: Colors.pinkAccent,
                     textColor: Colors.white,
                     onPressed: () {
                       gender = 1;
@@ -124,6 +125,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   RaisedButton(
                     color: Colors.purple[400],
                     textColor: Colors.white,
+                    splashColor: Colors.pinkAccent,
                     onPressed: () {
                       gender = 0;
                       color:
@@ -137,6 +139,7 @@ class _MyHomePageState extends State<MyHomePage> {
             RaisedButton(
               padding: EdgeInsets.all(30),
               color: Colors.purple[400],
+              splashColor: Colors.pinkAccent,
               textColor: Colors.white,
               onPressed: () {
                 setState(() {});
